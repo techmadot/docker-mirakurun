@@ -1,0 +1,10 @@
+# チャンネルスキャンにより中身を埋める想定.
+- name: ＮＨＫＥテレ・東京
+  type: GR
+  channel: '26'
+  isDisabled: true
+
+- name: ＮＨＫ総合・東京
+  type: GR
+  channel: '27'
+  isDisabled: true
