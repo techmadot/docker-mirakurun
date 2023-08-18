@@ -4,7 +4,7 @@ WORKDIR /tmp
 RUN apt update && apt install -y --no-install-recommends \
     build-essential \
     git curl cmake autoconf automake ca-certificates \
-    libpcsclite-dev \
+    libpcsclite-dev unzip \
     &&  \
     apt clean && \
     rm -rf /var/lib/apt/lists/*

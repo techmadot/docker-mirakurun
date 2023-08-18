@@ -37,6 +37,13 @@
   decoder: arib-b25-stream-test
   isDisabled: true
 
+- name: PX-S1UR
+  types:
+    - GR
+  command: recpt1 --device /dev/pxs1urvideo0 <channel> - -
+  decoder: arib-b25-stream-test
+  isDisabled: true
+
 - name: DTV02A-1T1S-U
   types:
     - GR
