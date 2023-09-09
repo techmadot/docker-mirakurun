@@ -30,7 +30,7 @@ RUN cd /tmp/recdvb;    \
   ./configure --enable-b25 && \
   make
 
-FROM chinachu/mirakurun:3.9.0-rc.2
+FROM chinachu/mirakurun:3.9.0-rc.4
 COPY --from=build /tmp/libarib25/libarib25.so* /usr/lib/aarch64-linux-gnu/
 COPY --from=build /tmp/recpt1/recpt1/recpt1* /usr/local/bin/
 COPY --from=build /tmp/recdvb/recdvb         /usr/local/bin/

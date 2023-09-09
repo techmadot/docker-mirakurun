@@ -19,6 +19,7 @@ services:
 # 使用するデバイスに応じて書き換える.      
 #      - /dev/dvb:/dev/dvb
 #      - /dev/pxm1urvideo0:/dev/pxm1urvideo0
+#      - /dev/pxs1urvideo0:/dev/pxs1urvideo0
 #      - /dev/px4video0:/dev/px4video0
 #      - /dev/px4video1:/dev/px4video1
 #      - /dev/px4video2:/dev/px4video2
